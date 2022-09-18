@@ -11,10 +11,9 @@ const { loginControll, setLoginControll } = useContext(TodoContext)
 
 
   return (
-    < >
+    <>
     { loginControll ?
-     <div>
-       
+     <div className='flex flex-col justify-center ml-3' >       
         <Header/>
         <Input />
         <TodoList />
